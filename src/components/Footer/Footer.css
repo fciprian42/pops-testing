@@ -1,0 +1,41 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 8px;
+    left: 0;
+    height: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+footer a {
+    color: #5c5c5c;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #f50057;
+    transition: 0.2s;
+}
+
+.comet {
+    background-color: #f50057;
+    padding: 8px;
+    margin-left: 8px;
+    display: flex;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.comet:hover {
+    background-color: #cd0049;
+    transition: 0.2s;
+}
+
+.social {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}

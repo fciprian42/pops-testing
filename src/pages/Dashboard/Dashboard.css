@@ -1,0 +1,138 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10em;
+}
+
+.margin-grid {
+    margin: 15px!important;
+}
+
+.list {
+    padding: 8px!important;
+}
+
+.settings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 1em;
+}
+
+.orders {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.orders-list {
+    width: 95%;
+}
+
+.typeOrder {
+    background-color: #4caf50!important;
+}
+
+.notPaid {
+    background-color: #ff1744!important;
+}
+
+.infosOrder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.infosOrder span:nth-child(2),  .infosOrder span:nth-child(3) {
+    margin-top: 5px;
+}
+
+.orderInfos {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerInfos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bodyInfos {
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+}
+
+.avatarUser {
+    margin-right: 10px;
+    background-color: #f50057!important;
+    cursor: pointer;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.userInfos {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    transition: .3s;
+    border-radius: 4px;
+}
+
+table {
+    margin-bottom: 2em;
+}
+
+th {
+    background-color: #f50057!important;
+    color: white!important;
+    font-size: .8em!important;
+}
+
+.userInfos:hover {
+    transition: .2s;
+    cursor: pointer;
+    background-color: #e4e4e4;
+}
+
+.headerInfos small {
+    transition: .2s;
+}
+
+.headerInfos small:hover {
+    transition: .3s;
+    color: #f50057;
+    cursor: pointer;
+}
+
+.pagination {
+    text-align: center;
+    padding: 20px;
+}
+
+.price span {
+    margin-bottom: 10px;
+}
+
+.price {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

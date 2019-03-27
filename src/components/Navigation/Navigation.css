@@ -1,0 +1,8 @@
+.navigation {
+    justify-content: space-between;
+}
+
+.activeBtn {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.08)!important;
+}
